@@ -122,13 +122,13 @@ class myFooter extends HTMLElement {
           </div>
         </div>
       </div>
-      <button
-      onclick="topFunction()"
-      id="movetop"
-      title="Go to top"
-      style="display: block">
-    ⤴
-    </button>
+      <a
+        href="#"
+        id="movetop"
+        style="display: block"
+        class="fa-solid fa-turn-up"
+      >
+      </a>
     </section>`;
   }
 }
